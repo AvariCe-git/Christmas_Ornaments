@@ -8,7 +8,7 @@
 		(title "Christmas Ornaments")
 		(date "2026-03-28")
 		(rev "A")
-		(company "AvariICe")
+		(company "AvariCe")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC138"
@@ -1209,6 +1209,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1463,6 +1645,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 182.88 97.79)
@@ -1483,10 +1780,22 @@
 		(uuid "7a7aeb81-13b1-41ee-a0fd-c20fa1ba0d3a")
 	)
 	(junction
+		(at 73.66 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2ebc841-022b-48c2-b892-ae8e4843def6")
+	)
+	(junction
 		(at 123.19 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a85aea58-a8ac-465f-9253-c4c36f10a46c")
+	)
+	(junction
+		(at 73.66 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3f5d044-0e2a-4bf1-b42e-d3fc59ecb6b6")
 	)
 	(junction
 		(at 182.88 100.33)
@@ -1512,6 +1821,24 @@
 		(color 0 0 0 0)
 		(uuid "f2a531c2-cf92-4675-863c-4dbece40ef39")
 	)
+	(no_connect
+		(at 118.11 111.76)
+		(uuid "38d838d1-c635-491e-aed4-4c4427410a11")
+	)
+	(no_connect
+		(at 121.92 109.22)
+		(uuid "467de5e3-f93b-4cc1-8b61-62d02b70c6e3")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018042ab-ee9a-4ced-9098-2b810ab4f8c8")
+	)
 	(wire
 		(pts
 			(xy 149.86 100.33) (xy 154.94 100.33)
@@ -1521,6 +1848,16 @@
 			(type default)
 		)
 		(uuid "05f3b5ff-6138-4e58-aa43-bbb290b6544f")
+	)
+	(wire
+		(pts
+			(xy 118.11 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa3c8ec-20f3-4110-a349-9835b7f873a6")
 	)
 	(wire
 		(pts
@@ -1544,22 +1881,12 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 129.54 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 164 96 1)
-		)
-		(uuid "1b29e10f-0a27-44aa-a981-ee52ce3b4f2e")
-	)
-	(wire
-		(pts
 			(xy 162.56 105.41) (xy 175.26 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "1c89521e-f2a4-43b2-8634-63ef7f914378")
 	)
@@ -1590,6 +1917,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "246200e6-029c-4209-b547-d1cbe26e1135")
 	)
@@ -1600,7 +1928,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 175 173 1)
+			(color 255 0 255 1)
 		)
 		(uuid "29c88fe7-ea61-40ea-95fc-bdb826c074bd")
 	)
@@ -1617,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 73.66 104.14)
+			(xy 73.66 88.9) (xy 73.66 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1632,20 +1960,9 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 145 230 1)
+			(color 255 0 255 1)
 		)
 		(uuid "33112887-d553-4ff6-ac6c-eb0d28283ba0")
-	)
-	(wire
-		(pts
-			(xy 118.11 104.14) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 113 255 212 1)
-		)
-		(uuid "38094ded-5eb6-4a08-aec5-aa524f6fe2af")
 	)
 	(wire
 		(pts
@@ -1669,6 +1986,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 111.76) (xy 73.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a0e14a-7f7b-4958-885b-ff6d7ecf3306")
+	)
+	(wire
+		(pts
 			(xy 182.88 97.79) (xy 182.88 100.33)
 		)
 		(stroke
@@ -1679,6 +2006,37 @@
 	)
 	(wire
 		(pts
+			(xy 127 104.14) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec6eef5-858b-4c1e-ac10-fa2cf114f002")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 113 255 212 1)
+		)
+		(uuid "4f3d6ba8-dcae-4c0e-87f4-67057d201b26")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 81.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571d828c-49e5-4052-9f59-f2bdfdfc8171")
+	)
+	(wire
+		(pts
 			(xy 139.7 120.65) (xy 139.7 125.73)
 		)
 		(stroke
@@ -1686,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "60daa707-a8b7-4103-adb6-ceaf32aeaf1b")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c7a15c-c7a8-4370-8a72-45086fdd693c")
 	)
 	(wire
 		(pts
@@ -1709,12 +2077,22 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 95.25) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7296f5c7-957d-46c5-be77-5b43ba885699")
+	)
+	(wire
+		(pts
 			(xy 123.19 113.03) (xy 129.54 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 175 173 1)
+			(color 255 0 255 1)
 		)
 		(uuid "747200b5-ef63-4333-ae3a-1a807e67ba9c")
 	)
@@ -1756,7 +2134,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 175 173 1)
+			(color 255 0 255 1)
 		)
 		(uuid "7fc47289-4930-4dc7-b1d1-4add47b8800c")
 	)
@@ -1782,27 +2160,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 127 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 164 96 1)
-		)
-		(uuid "97f7d235-f74f-4dd6-a64c-d59d1bd8654c")
-	)
-	(wire
-		(pts
-			(xy 73.66 111.76) (xy 73.66 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "987b9046-7d33-4dba-a32e-26e828f8f4d0")
-	)
-	(wire
-		(pts
 			(xy 149.86 102.87) (xy 154.94 102.87)
 		)
 		(stroke
@@ -1810,6 +2167,17 @@
 			(type default)
 		)
 		(uuid "a0349e97-bcdc-440b-990d-90e4cd43eaaf")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 113 255 212 1)
+		)
+		(uuid "b2c6879d-267d-4a77-b74c-3f6c317e435b")
 	)
 	(wire
 		(pts
@@ -1841,17 +2209,6 @@
 			(type default)
 		)
 		(uuid "be84299d-08a0-4207-8577-103fece45b5a")
-	)
-	(wire
-		(pts
-			(xy 127 101.6) (xy 127 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 164 96 1)
-		)
-		(uuid "c4923f40-9e81-4894-b0c9-6da84567af0d")
 	)
 	(wire
 		(pts
@@ -1890,19 +2247,9 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "cdb1f695-70c3-4340-88f7-06b0c90e4b15")
-	)
-	(wire
-		(pts
-			(xy 128.27 104.14) (xy 128.27 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 113 255 212 1)
-		)
-		(uuid "ce5e44ca-4165-4d78-a5bf-f2050382d3f6")
 	)
 	(wire
 		(pts
@@ -1956,6 +2303,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 118.11) (xy 73.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2303b0d-b944-4985-9e89-8f8755e669d2")
+	)
+	(wire
+		(pts
 			(xy 129.54 106.68) (xy 129.54 102.87)
 		)
 		(stroke
@@ -1966,6 +2323,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 118.11) (xy 81.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68b3f66-9f8f-4e42-816e-669e5676f064")
+	)
+	(wire
+		(pts
 			(xy 171.45 107.95) (xy 171.45 102.87)
 		)
 		(stroke
@@ -1973,17 +2340,6 @@
 			(type default)
 		)
 		(uuid "fe14b644-cac4-4260-b81a-3912cc9027d5")
-	)
-	(wire
-		(pts
-			(xy 128.27 100.33) (xy 129.54 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 113 255 212 1)
-		)
-		(uuid "ff8abcc4-df8d-44f6-89df-7274ad7d5d9a")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -3209,6 +3565,88 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 148.59 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8780fd5f-32d1-4e02-9aff-a3fd08f413c4")
+		(property "Reference" "J2"
+			(at 151.13 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 151.13 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 148.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d832167-aecd-4bb8-8630-61c034caa958")
+		)
+		(pin "2"
+			(uuid "fa0fe5a4-d077-40a4-812a-dace6dea6dd8")
+		)
+		(instances
+			(project "Christmas Ornaments"
+				(path "/0ad921f0-cc13-4f19-90c2-3fa9d9f5afb5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 73.66 109.22 0)
 		(unit 1)
@@ -3492,6 +3930,88 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 118.11 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac5574cf-9da2-4f70-aa99-4e0882f52831")
+		(property "Reference" "J1"
+			(at 120.65 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 120.65 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 118.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3c6d215-2f14-42da-89d0-a1c35407597f")
+		)
+		(pin "2"
+			(uuid "53e85d77-2aff-492e-a5e1-f4e7ce87a655")
+		)
+		(instances
+			(project "Christmas Ornaments"
+				(path "/0ad921f0-cc13-4f19-90c2-3fa9d9f5afb5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 179.07 110.49 0)
 		(unit 1)
@@ -3705,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_SO_AKL:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 139.7 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3796,6 +4316,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc968354-c5e5-4ef9-88ae-2bdafbdf3f65")
+		(property "Reference" "#FLG01"
+			(at 83.185 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.804 98.044 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0025be0-a9a3-429d-a278-de7a582c2ed4")
+		)
+		(instances
+			(project "Christmas Ornaments"
+				(path "/0ad921f0-cc13-4f19-90c2-3fa9d9f5afb5"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 125.73 0)
 		(unit 1)
@@ -3868,6 +4465,83 @@
 			(project "Christmas Ornaments"
 				(path "/0ad921f0-cc13-4f19-90c2-3fa9d9f5afb5"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f16a2dcd-4fc2-46ab-9414-7fd7bcaa69d5")
+		(property "Reference" "#FLG02"
+			(at 83.185 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.804 120.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08925242-2d1d-4173-a60b-305213391069")
+		)
+		(instances
+			(project "Christmas Ornaments"
+				(path "/0ad921f0-cc13-4f19-90c2-3fa9d9f5afb5"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
